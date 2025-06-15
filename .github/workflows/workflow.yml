@@ -16,7 +16,7 @@ jobs:
       - name: Generate Directory Listings
         uses: jayanta525/github-pages-directory-listing@main
         with:
-          FOLDER: 'files'
+          FOLDER: files
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
